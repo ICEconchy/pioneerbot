@@ -14,6 +14,6 @@ class customslash(commands.Cog):
         # Your code will go here
         await ctx.send("I can do stuff!")
 
-    @app_commands.command()
+    @commands.command()
     async def close(self, ctx):
         await ctx.send("!reacticket close")
