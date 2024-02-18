@@ -7,9 +7,6 @@ class customslash(commands.Cog):
         self.bot = bot
     """My custom cog"""
 
-    def __init__(self, bot):
-        self.bot = bot
-
     @commands.command()
     async def customslash(self, ctx):
         """This does stuff!"""
