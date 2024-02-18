@@ -3,6 +3,8 @@ import discord
 
 
 class customslash(commands.Cog):
+    def __init__(self bot):
+        self.bot = bot
     """My custom cog"""
 
     def __init__(self, bot):
@@ -17,3 +19,6 @@ class customslash(commands.Cog):
     @commands.command()
     async def close(self, ctx):
         await ctx.send("!reacticket close")
+
+def setup(bot):
+    bot.add_cog(customslash(bot))
