@@ -3,7 +3,7 @@ import discord
 
 
 class customslash(commands.Cog):
-    def __init__(self bot):
+    def __init__(self, bot):
         self.bot = bot
     """My custom cog"""
 
