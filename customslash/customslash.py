@@ -17,5 +17,5 @@ class customslash(commands.Cog):
     async def close(self, ctx):
         await ctx.send("!reacticket close")
 
-def setup(bot):
+async def setup(bot):
     bot.add_cog(customslash(bot))
