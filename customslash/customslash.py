@@ -1,4 +1,4 @@
-from redbot.core import commands
+from redbot.core import commands, app_commands
 import discord
 
 
