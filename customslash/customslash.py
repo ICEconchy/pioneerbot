@@ -14,7 +14,7 @@ class customslash(commands.Cog):
         await ctx.send("I can do stuff!")
 
     @app_commands.command()
-    async def close(self, ctx):
+    async def close(self, interaction: discord.interaction, ctx):
         await ctx.send("!reacticket close")
 
 async def setup(bot):
